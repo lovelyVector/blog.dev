@@ -27,8 +27,18 @@ Route::get('/portfolio', function()
 });
 
 
-
-Route::get('/sayhello', function()
+Route::get('/rolldice',function()
 {
-	return View::make('my-first-view');
+	return 'this is a dice role';
+});
+
+
+Route::get('/sayhello/{name}', function($name)
+{
+
+	$data = array(
+		'name' => $name
+	);
+
+	return View::make('my-first-view')->with($data);
 });

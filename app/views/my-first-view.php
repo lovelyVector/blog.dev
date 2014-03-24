@@ -5,5 +5,9 @@
 </head>
 <body>
     <h1>Hello, Codeup!</h1>
+
+    <?php
+    echo "$name $name";
+    ?>
 </body>
 </html>
