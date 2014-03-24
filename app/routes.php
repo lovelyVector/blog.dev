@@ -29,7 +29,14 @@ Route::get('/portfolio', function()
 
 Route::get('/rolldice',function()
 {
-	return 'this is a dice role';
+	$roll = rand(1,6);
+
+	$data = array(
+		'diceData' =>$roll
+	);
+
+	return View::make('rolldice-view')->with($data);
+
 });
 
 
