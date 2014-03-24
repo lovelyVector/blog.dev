@@ -27,7 +27,7 @@ Route::get('/portfolio', function()
 });
 
 
-Route::get('/rolldice',function()
+Route::get('/rolldice/{guess}',function()
 {
 	$roll = rand(1,6);
 
