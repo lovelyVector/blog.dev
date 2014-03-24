@@ -25,3 +25,10 @@ Route::get('/portfolio', function()
 {
 	return View::make('This is my portfolio');
 });
+
+
+
+Route::get('/sayhello', function()
+{
+	return View::make('my-first-view');
+});
