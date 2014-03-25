@@ -14,7 +14,7 @@ Where should js files go?
 Where should css files go?
 
 
-I need to find a better posture for a more efficiant workflow.
+I need to find a better posture for a more efficient workflow.
 
 I feel like I am hunched over alot. It's also really hot in here. And I have a headache.
 
@@ -22,3 +22,7 @@ I feel like I am hunched over alot. It's also really hot in here. And I have a h
 ### Header
 ### Footer
 ### Content
+
+
+## Blade
+This is the templeting engine that I need to learn.
